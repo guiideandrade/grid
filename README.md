@@ -1,4 +1,10 @@
-# Mini Grid System
+# Grid v2.x.x
+
+Home page: [guiideandrade/grid](http://guiideandrade.com/project/grid)
+
+See grid-devel.css and code-you-should-use.css for more specific codes.
+
+# License
 
 Copyright (C) 2016 Guilherme de Andrade Arantes.
 
@@ -10,10 +16,8 @@ Visit [license](http://creativecommons.org/licenses/by-sa/4.0/) or send a letter
 
 This program is distributed in the hope that it will be useful, but *without any warranty*; without even the implied warranty of *merchantability or fitness for a particular purpose*.
 
-Home page: [guiideandrade/grid](http://guiideandrade.com/project/grid)
+# Why "Grid v2"?
 
-# Author
+I am proud of Grid-v1's size: the `gr` flavor was just 1.630 B! Then, I don't want to mess with this and in order to add some features in the grid system, I created this new branch on git-hub.
 
-Hey! Nice to meet you (Do I know You? Whatever... Just notice:)
-
-**I'm Guilherme and I love to write free software (it isn't a software, it's just a CSS file, anyways...), you should check out my git-hub page at [git-hub/guiideandrade](https://github.com/guiideandrade) or contact me at my [page](http://guiideandrade.com)**
+**I love to write free software (it isn't a software, it's just a CSS file, anyways...), you should check out my git-hub page at [git-hub](http://github.com/guiideandrade) or contact me at my [page](http://guiideandrade.com)**
