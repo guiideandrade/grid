@@ -1,5 +1,5 @@
 /*
- * Grid v2.x.x - ./grid.css
+ * Grid v2.1.x - ./grid.css
  * 
  * Copyright (C) 2016 Guilherme de Andrade Arantes.
  *
@@ -11,10 +11,21 @@
  *
  * Git-hub page: [git](https://github.com/guiideandrade/grid.git)
  *
+ * See README.md and code-you-should-use.css for more details.
+ *
  */
 
 /*
- * See grid-devel.css and code-you-should-use.css for more specific codes.
+ * This file contains:
+ *   grid-basic.css
+ *   grid-default-initial.css unitl grid 8
+ *   grid-default-offset.css until grid 8
+ *   all css files in folder ./recommended/
+ *   
+ */
+
+/*
+ * grid-basic.css
  *
  */
 
@@ -49,245 +60,239 @@
   float: right;
 }
 
-.grid-1 .col{width:100%}
-.grid-2 .col{width:50%}
-.grid-3 .col{width:33.33333%}
-.grid-4 .col{width:25%}
-.grid-5 .col{width:20%}
-.grid-6 .col{width:16.66667%}
-.grid-7 .col{width:14.28571%}
-.grid-8 .col{width:12.5%}
+/*
+ * grid-default-initial.css
+ *
+ */
 
-.col-1-1,
-.col-2-2,
-.col-3-3,
-.col-4-4,
-.col-5-5,
-.col-6-6,
-.col-7-7,
-.col-8-8{width:100%}
-.col-1-2,
-.col-2-4,
-.col-3-6,
-.col-4-8{width:50%}
-.col-1-3,
-.col-2-6{width:33.33333%}
-.col-2-3,
-.col-4-6{width:66.66667%}
-.col-1-4,
-.col-2-8{width:25%}
-.col-3-4,
-.col-6-8{width:75%}
-.col-1-5{width:20%}
-.col-2-5{width:40%}
-.col-3-5{width:60%}
-.col-4-5{width:80%}
-.col-1-6{width:16.66667%}
-.col-5-6{width:83.33333%}
-.col-1-7{width:14.28571%}
-.col-2-7{width:28.57143%}
-.col-3-7{width:42.85714%}
-.col-4-7{width:57.14286%}
-.col-5-7{width:71.42857%}
-.col-6-7{width:85.71429%}
-.col-1-8{width:12.5%}
-.col-3-8{width:37.5%}
-.col-5-8{width:62.5%}
-.col-7-8{width:87.5%}
+.gr1 .col { width: 100% }
+.gr2 .col { width: 50% }
+.gr3 .col { width: 33.333333% }
+.gr4 .col { width: 25% }
+.gr5 .col { width: 20% }
+.gr6 .col { width: 16.666667% }
+.gr7 .col { width: 14.285714% }
+.gr8 .col { width: 12.500000% }
 
-.off-1-2,
-.off-2-4,
-.off-3-6,
-.off-4-8{margin-left:50%}
-.off-1-3,
-.off-2-6{margin-left:33.33333%}
-.off-2-3,
-.off-4-6{margin-left:66.66667%}
-.off-1-4,
-.off-2-8{margin-left:25%}
-.off-3-4,
-.off-6-8{margin-left:75%}
-.off-1-5{margin-left:20%}
-.off-2-5{margin-left:40%}
-.off-3-5{margin-left:60%}
-.off-4-5{margin-left:80%}
-.off-1-6{margin-left:16.66667%}
-.off-5-6{margin-left:83.33333%}
-.off-1-7{margin-left:14.28571%}
-.off-2-7{margin-left:28.57143%}
-.off-3-7{margin-left:42.85714%}
-.off-4-7{margin-left:57.14286%}
-.off-5-7{margin-left:71.42857%}
-.off-6-7{margin-left:85.71429%}
-.off-1-8{margin-left:12.5%}
-.off-3-8{margin-left:37.5%}
-.off-5-8{margin-left:62.5%}
-.off-7-8{margin-left:87.5%}
+/*
+ * grid-default-offset.css
+ *
+ */
+
+.off1-2 { margin-left: 50% }
+.off1-3 { margin-left: 33.333333% }
+.off2-3 { margin-left: 66.666667% }
+.off1-4 { margin-left: 25% }
+.off2-4 { margin-left: 50% }
+.off3-4 { margin-left: 75% }
+.off1-5 { margin-left: 20% }
+.off2-5 { margin-left: 40% }
+.off3-5 { margin-left: 60% }
+.off4-5 { margin-left: 80% }
+.off1-6 { margin-left: 16.666667% }
+.off2-6 { margin-left: 33.333333% }
+.off3-6 { margin-left: 50% }
+.off4-6 { margin-left: 66.666667% }
+.off5-6 { margin-left: 83.333333% }
+.off1-7 { margin-left: 14.285714% }
+.off2-7 { margin-left: 28.571429% }
+.off3-7 { margin-left: 42.857143% }
+.off4-7 { margin-left: 57.142857% }
+.off5-7 { margin-left: 71.428571% }
+.off6-7 { margin-left: 85.714286% }
+.off1-8 { margin-left: 12% }
+.off2-8 { margin-left: 25% }
+.off3-8 { margin-left: 37% }
+.off4-8 { margin-left: 50% }
+.off5-8 { margin-left: 62% }
+.off6-8 { margin-left: 75% }
+.off7-8 { margin-left: 87% }
+
+/*
+ * small devices
+ *   grid-small-initial.css
+ *   grid-small-basic.css
+ *
+ */
 
 @media screen and (min-width: 35.5rem) {
 
-  .grid-sm-1 .col{width:100%}
-  .grid-sm-2 .col{width:50%}
+.gr-sm1 .col { width: 100% }
+.gr-sm2 .col { width: 50% }
 
-  .col-sm-1-1,
-  .col-sm-2-2{width:100%}
-  .col-sm-1-2{width:50%}
-
-  .off-sm-1-2{margin-left:50%}
+.sm1-1 { width: 100% }
+.sm1-2 { width: 50% }
+.sm2-2 { width: 100% }
 
 }
+
+/*
+ * medium devices
+ *   grid-medium-initial.css
+ *   grid-medium-basic.css
+ *
+ */
 
 @media screen and (min-width: 48rem) {
 
-  .grid-dm-1 .col{width:100%}
-  .grid-dm-2 .col{width:50%}
-  .grid-dm-3 .col{width:33.33333%}
-  .grid-dm-4 .col{width:25%}
+.gr-md1 .col { width: 100% }
+.gr-md2 .col { width: 50% }
+.gr-md3 .col { width: 33.333333% }
+.gr-md4 .col { width: 25% }
 
-  .col-md-1-1,
-  .col-md-2-2,
-  .col-md-3-3,
-  .col-md-4-4{width:100%}
-  .col-md-1-2,
-  .col-md-2-4{width:50%}
-  .col-md-1-3{width:33.33333%}
-  .col-md-2-3{width:66.66667%}
-  .col-md-1-4{width:25%}
-  .col-md-3-4{width:75%}
-
-  .off-md-1-2,
-  .off-md-2-4{margin-left:50%}
-  .off-md-1-3{margin-left:33.33333%}
-  .off-md-2-3{margin-left:66.66667%}
-  .off-md-1-4{margin-left:25%}
-  .off-md-3-4{margin-left:75%}
+.md1-1 { width: 100% }
+.md1-2 { width: 50% }
+.md2-2 { width: 100% }
+.md1-3 { width: 33.333333% }
+.md2-3 { width: 66.666667% }
+.md3-3 { width: 100% }
+.md1-4 { width: 25% }
+.md2-4 { width: 50% }
+.md3-4 { width: 75% }
+.md4-4 { width: 100% }
 
 }
+
+/*
+ * large devices
+ *   grid-large-initial.css
+ *   grid-large-basic.css
+ *   grid-large-offset.css
+ *
+ */
 
 @media screen and (min-width: 64rem) {
 
-  .grid-lg-1 .col{width:100%}
-  .grid-lg-2 .col{width:50%}
-  .grid-lg-3 .col{width:33.33333%}
-  .grid-lg-4 .col{width:25%}
-  .grid-lg-5 .col{width:20%}
-  .grid-lg-6 .col{width:16.66667%}
+.gr-lg1 .col { width: 100% }
+.gr-lg2 .col { width: 50% }
+.gr-lg3 .col { width: 33.333333% }
+.gr-lg4 .col { width: 25% }
+.gr-lg5 .col { width: 20% }
+.gr-lg6 .col { width: 16.666667% }
 
-  .col-lg-1-1,
-  .col-lg-2-2,
-  .col-lg-3-3,
-  .col-lg-4-4,
-  .col-lg-5-5,
-  .col-lg-6-6{width:100%}
-  .col-lg-1-2,
-  .col-lg-2-4,
-  .col-lg-3-6{width:50%}
-  .col-lg-1-3,
-  .col-lg-2-6{width:33.33333%}
-  .col-lg-2-3,
-  .col-lg-4-6{width:66.66667%}
-  .col-lg-1-4{width:25%}
-  .col-lg-3-4{width:75%}
-  .col-lg-1-5{width:20%}
-  .col-lg-2-5{width:40%}
-  .col-lg-3-5{width:60%}
-  .col-lg-4-5{width:80%}
-  .col-lg-1-6{width:16.66667%}
-  .col-lg-5-6{width:83.33333%}
+.lg1-1 { width: 100% }
+.lg1-2 { width: 50% }
+.lg2-2 { width: 100% }
+.lg1-3 { width: 33.333333% }
+.lg2-3 { width: 66.666667% }
+.lg3-3 { width: 100% }
+.lg1-4 { width: 25% }
+.lg2-4 { width: 50% }
+.lg3-4 { width: 75% }
+.lg4-4 { width: 100% }
+.lg1-5 { width: 20% }
+.lg2-5 { width: 40% }
+.lg3-5 { width: 60% }
+.lg4-5 { width: 80% }
+.lg5-5 { width: 100% }
+.lg1-6 { width: 16.666667% }
+.lg2-6 { width: 33.333333% }
+.lg3-6 { width: 50% }
+.lg4-6 { width: 66.666667% }
+.lg5-6 { width: 83.333333% }
+.lg6-6 { width: 100% }
 
-  .off-lg-1-2,
-  .off-lg-2-4,
-  .off-lg-3-6{margin-left:50%}
-  .off-lg-1-3,
-  .off-lg-2-6{margin-left:33.33333%}
-  .off-lg-2-3,
-  .off-lg-4-6{margin-left:66.66667%}
-  .off-lg-1-4{margin-left:25%}
-  .off-lg-3-4{margin-left:75%}
-  .off-lg-1-5{margin-left:20%}
-  .off-lg-2-5{margin-left:40%}
-  .off-lg-3-5{margin-left:60%}
-  .off-lg-4-5{margin-left:80%}
-  .off-lg-1-6{margin-left:16.66667%}
-  .off-lg-5-6{margin-left:83.33333%}
+.off-lg1-2 { margin-left: 50% }
+.off-lg1-3 { margin-left: 33.333333% }
+.off-lg2-3 { margin-left: 66.666667% }
+.off-lg1-4 { margin-left: 25% }
+.off-lg2-4 { margin-left: 50% }
+.off-lg3-4 { margin-left: 75% }
+.off-lg1-5 { margin-left: 20% }
+.off-lg2-5 { margin-left: 40% }
+.off-lg3-5 { margin-left: 60% }
+.off-lg4-5 { margin-left: 80% }
+.off-lg1-6 { margin-left: 16.666667% }
+.off-lg2-6 { margin-left: 33.333333% }
+.off-lg3-6 { margin-left: 50% }
+.off-lg4-6 { margin-left: 66.666667% }
+.off-lg5-6 { margin-left: 83.333333% }
 
 }
 
+/*
+ * extra large devices
+ *   grid-extralarge-initial.css
+ *   grid-extralarge-basic.css
+ *   grid-extralarge-offset.css
+ *
+ */
+
 @media screen and (min-width: 80rem) {
 
-  .grid-xl-1 .col{width:100%}
-  .grid-xl-2 .col{width:50%}
-  .grid-xl-3 .col{width:33.33333%}
-  .grid-xl-4 .col{width:25%}
-  .grid-xl-5 .col{width:20%}
-  .grid-xl-6 .col{width:16.66667%}
-  .grid-xl-7 .col{width:14.28571%}
-  .grid-xl-8 .col{width:12.5%}
+.gr-xl1 .col { width: 100% }
+.gr-xl2 .col { width: 50% }
+.gr-xl3 .col { width: 33.333333% }
+.gr-xl4 .col { width: 25% }
+.gr-xl5 .col { width: 20% }
+.gr-xl6 .col { width: 16.666667% }
+.gr-xl7 .col { width: 14.285714% }
+.gr-xl8 .col { width: 12.500000% }
 
-  .col-xl-1-1,
-  .col-xl-2-2,
-  .col-xl-3-3,
-  .col-xl-4-4,
-  .col-xl-5-5,
-  .col-xl-6-6,
-  .col-xl-7-7,
-  .col-xl-8-8{width:100%}
-  .col-xl-1-2,
-  .col-xl-2-4,
-  .col-xl-3-6,
-  .col-xl-4-8{width:50%}
-  .col-xl-1-3,
-  .col-xl-2-6{width:33.33333%}
-  .col-xl-2-3,
-  .col-xl-4-6{width:66.66667%}
-  .col-xl-1-4,
-  .col-xl-2-8{width:25%}
-  .col-xl-3-4,
-  .col-xl-6-8{width:75%}
-  .col-xl-1-5{width:20%}
-  .col-xl-2-5{width:40%}
-  .col-xl-3-5{width:60%}
-  .col-xl-4-5{width:80%}
-  .col-xl-1-6{width:16.66667%}
-  .col-xl-5-6{width:83.33333%}
-  .col-xl-1-7{width:14.28571%}
-  .col-xl-2-7{width:28.57143%}
-  .col-xl-3-7{width:42.85714%}
-  .col-xl-4-7{width:57.14286%}
-  .col-xl-5-7{width:71.42857%}
-  .col-xl-6-7{width:85.71429%}
-  .col-xl-1-8{width:12.5%}
-  .col-xl-3-8{width:37.5%}
-  .col-xl-5-8{width:62.5%}
-  .col-xl-7-8{width:87.5%}
+.xl1-1 { width: 100% }
+.xl1-2 { width: 50% }
+.xl2-2 { width: 100% }
+.xl1-3 { width: 33.333333% }
+.xl2-3 { width: 66.666667% }
+.xl3-3 { width: 100% }
+.xl1-4 { width: 25% }
+.xl2-4 { width: 50% }
+.xl3-4 { width: 75% }
+.xl4-4 { width: 100% }
+.xl1-5 { width: 20% }
+.xl2-5 { width: 40% }
+.xl3-5 { width: 60% }
+.xl4-5 { width: 80% }
+.xl5-5 { width: 100% }
+.xl1-6 { width: 16.666667% }
+.xl2-6 { width: 33.333333% }
+.xl3-6 { width: 50% }
+.xl4-6 { width: 66.666667% }
+.xl5-6 { width: 83.333333% }
+.xl6-6 { width: 100% }
+.xl1-7 { width: 14.285714% }
+.xl2-7 { width: 28.571429% }
+.xl3-7 { width: 42.857143% }
+.xl4-7 { width: 57.142857% }
+.xl5-7 { width: 71.428571% }
+.xl6-7 { width: 85.714286% }
+.xl7-7 { width: 100% }
+.xl1-8 { width: 12% }
+.xl2-8 { width: 25% }
+.xl3-8 { width: 37% }
+.xl4-8 { width: 50% }
+.xl5-8 { width: 62% }
+.xl6-8 { width: 75% }
+.xl7-8 { width: 87% }
+.xl8-8 { width: 100% }
 
-  .off-xl-1-2,
-  .off-xl-2-4,
-  .off-xl-3-6,
-  .off-xl-4-8{margin-left:50%}
-  .off-xl-1-3,
-  .off-xl-2-6{margin-left:33.33333%}
-  .off-xl-2-3,
-  .off-xl-4-6{margin-left:66.66667%}
-  .off-xl-1-4,
-  .off-xl-2-8{margin-left:25%}
-  .off-xl-3-4,
-  .off-xl-6-8{margin-left:75%}
-  .off-xl-1-5{margin-left:20%}
-  .off-xl-2-5{margin-left:40%}
-  .off-xl-3-5{margin-left:60%}
-  .off-xl-4-5{margin-left:80%}
-  .off-xl-1-6{margin-left:16.66667%}
-  .off-xl-5-6{margin-left:83.33333%}
-  .off-xl-1-7{margin-left:14.28571%}
-  .off-xl-2-7{margin-left:28.57143%}
-  .off-xl-3-7{margin-left:42.85714%}
-  .off-xl-4-7{margin-left:57.14286%}
-  .off-xl-5-7{margin-left:71.42857%}
-  .off-xl-6-7{margin-left:85.71429%}
-  .off-xl-1-8{margin-left:12.5%}
-  .off-xl-3-8{margin-left:37.5%}
-  .off-xl-5-8{margin-left:62.5%}
-  .off-xl-7-8{margin-left:87.5%}
+.off-xl1-2 { margin-left: 50% }
+.off-xl1-3 { margin-left: 33.333333% }
+.off-xl2-3 { margin-left: 66.666667% }
+.off-xl1-4 { margin-left: 25% }
+.off-xl2-4 { margin-left: 50% }
+.off-xl3-4 { margin-left: 75% }
+.off-xl1-5 { margin-left: 20% }
+.off-xl2-5 { margin-left: 40% }
+.off-xl3-5 { margin-left: 60% }
+.off-xl4-5 { margin-left: 80% }
+.off-xl1-6 { margin-left: 16.666667% }
+.off-xl2-6 { margin-left: 33.333333% }
+.off-xl3-6 { margin-left: 50% }
+.off-xl4-6 { margin-left: 66.666667% }
+.off-xl5-6 { margin-left: 83.333333% }
+.off-xl1-7 { margin-left: 14.285714% }
+.off-xl2-7 { margin-left: 28.571429% }
+.off-xl3-7 { margin-left: 42.857143% }
+.off-xl4-7 { margin-left: 57.142857% }
+.off-xl5-7 { margin-left: 71.428571% }
+.off-xl6-7 { margin-left: 85.714286% }
+.off-xl1-8 { margin-left: 12% }
+.off-xl2-8 { margin-left: 25% }
+.off-xl3-8 { margin-left: 37% }
+.off-xl4-8 { margin-left: 50% }
+.off-xl5-8 { margin-left: 62% }
+.off-xl6-8 { margin-left: 75% }
+.off-xl7-8 { margin-left: 87% }
 
 }

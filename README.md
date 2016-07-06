@@ -26,34 +26,75 @@ In this release, there is not a default ready-to-use file, instead we have a few
 
 # 3 - Files
 
+├── README.md
 ├── code-you-should-use.css
 ├── grid-basic.css
+├── grid.css
 ├── grid-default-basic.css
 ├── grid-default-initial.css
 ├── grid-default-offset.css
-├── grid-extralarge-basic.css
-├── grid-extralarge-initial.css
-├── grid-extralarge-offset.css
-├── grid-large-basic.css
-├── grid-large-initial.css
-├── grid-large-offset.css
-├── grid-medium-basic.css
-├── grid-medium-initial.css
-├── grid-medium-offset.css
-├── grid-small-basic.css
-├── grid-small-initial.css
-├── grid-small-offset.css
+├── grid.min.css
 ├── main.cpp
-└── README.md
+├── breakpoints
+│   └── *.css
+└── recommended
+    └── *.css
 
-These files is not needed in prodution, but you should checkout at least *code-you-should-use.css* and this *README.md* file.
+Some of these files is not needed in prodution, but you should checkout at least *code-you-should-use.css* and this *README.md* file.
 
-## 3.1 - code-you-shoud-use.css
+## 3.1 - ./README.md
+
+This file. It's the best way I found to communicate about the project. It contains some directives, some links, etc.
+
+I tried to keep this file updated, but the comments in code are usually more accurated than README.md.
+
+## 3.2 - ./code-you-shoud-use.css
 
 This file includes some CSS properties. These codes are recommended, you should consider this lines (it's very small).
 
-## 3.2 - README.md
+## 3.3 - ./grid-basic.css
 
-This file. It's the best way I found to communicate about the project. It contains some directives, some links, etc. If you are looking for explanations about the code, notice that I wrote some comments while writing the source-code.
+Definition of `.row`, `.col` and `.float`.
 
-I tried to keep this file updated, but the comments in code are usually more accurated than README.md.
+## 3.4 - ./grid.css
+
+Compiled version of *grid-basic.css, grid-default-initial.css, grid-default-offset.css and all css files in folder ./recommended/*. Some files were edited and contain only grids 1-8.
+
+## 3.5 - ./grid-default-basic.css
+
+This file contains 12 grids (1-12) for all viewports.
+
+## 3.6 - ./grid-default-initial.css
+
+This file implements default sizes. For example:
+
+```html
+<div class="gr4">...</div>
+```
+
+All `.col` elements inside this div will be 25% by default.
+
+## 3.7 - ./grid-default-offset.css
+
+Offsets, or 'empty cols'; You may edit it to be margin-right, if rtl is needed.
+
+## 3.8 - ./grid.min.css
+
+Minified version of grid.css (see 3.4).
+
+## 3.9 - ./main.cpp
+
+I used this c++ file to create base css files. I choose to leave it in the project, because it may be useful for me and others.
+
+## 3.10 - ./breakpoints folder
+
+This folder contains files modified to use specific breakpoint. But all viewports have from 1 to 12-column grid.
+
+## 3.11 - ./recommended folder
+
+This folder contains recommended versions of this project, modified to use breakpoint. Grid availability for device:
+
+  * small devices: 1-2
+  * medium devices: 1-4
+  * large devices: 1-6
+  * extra large devices: 1-8

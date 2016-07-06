@@ -1,0 +1,31 @@
+/*
+ * Grid v2.1.x - ./recommended/grid-small-basic.css
+ * 
+ * Copyright (C) 2016 Guilherme de Andrade Arantes.
+ *
+ * This work is licensed under the Creative Commons BY SA 4.0 License
+ * 
+ * Visit [license](http://creativecommons.org/licenses/by-sa/4.0/) or send a letter
+ * to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA to view
+ * a copy of this licence.
+ *
+ * Git-hub page: [git](https://github.com/guiideandrade/grid.git)
+ *
+ * See README.md and code-you-should-use.css for more details.
+ *
+ */
+
+/*
+ * Classes for small devices
+ * It was made for viewports equal or greater than 35.5rem
+ * We may say 35.5rem = 568px [if 1rem = 16px]
+ *
+ */
+
+@media screen and (min-width: 35.5rem) {
+
+.sm1-1 { width: 100% }
+.sm1-2 { width: 50% }
+.sm2-2 { width: 100% }
+
+}

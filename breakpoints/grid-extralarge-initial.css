@@ -1,0 +1,43 @@
+/*
+ * Grid v2.1.x - ./source/grid-extralarge-initial.css
+ * 
+ * Copyright (C) 2016 Guilherme de Andrade Arantes.
+ *
+ * This work is licensed under the Creative Commons BY SA 4.0 License
+ * 
+ * Visit [license](http://creativecommons.org/licenses/by-sa/4.0/) or send a letter
+ * to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA to view
+ * a copy of this licence.
+ *
+ * Git-hub page: [git](https://github.com/guiideandrade/grid.git)
+ *
+ * See README.md and code-you-should-use.css for more details.
+ *
+ */
+
+/*
+ * Classes for default sizes
+ *
+ * For example <div class="gr-xl4">...</div>
+ * `.col` elements inside this div will be 25% by default on extra large devices
+ *
+ */
+
+@media screen and (min-width: 80rem) {
+
+.gr-xl1 .col { width: 100% }
+.gr-xl2 .col { width: 50% }
+.gr-xl3 .col { width: 33.333333% }
+.gr-xl4 .col { width: 25% }
+
+.gr-xl5 .col { width: 20% }
+.gr-xl6 .col { width: 16.666667% }
+.gr-xl7 .col { width: 14.285714% }
+.gr-xl8 .col { width: 12.500000% }
+
+.gr-xl9 .col { width: 11.111111% }
+.gr-xl10 .col { width: 10% }
+.gr-xl11 .col { width: 9.090909% }
+.gr-xl12 .col { width: 8.333333% }
+
+}

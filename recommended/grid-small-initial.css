@@ -1,0 +1,31 @@
+/*
+ * Grid v2.1.x - ./recommended/grid-small-initial.css
+ * 
+ * Copyright (C) 2016 Guilherme de Andrade Arantes.
+ *
+ * This work is licensed under the Creative Commons BY SA 4.0 License
+ * 
+ * Visit [license](http://creativecommons.org/licenses/by-sa/4.0/) or send a letter
+ * to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA to view
+ * a copy of this licence.
+ *
+ * Git-hub page: [git](https://github.com/guiideandrade/grid.git)
+ *
+ * See README.md and code-you-should-use.css for more details.
+ *
+ */
+
+/*
+ * Classes for default sizes
+ *
+ * For example <div class="gr-sm2">...</div>
+ * `.col` elements inside this div will be 50% by default on small devices
+ *
+ */
+
+@media screen and (min-width: 35.5rem) {
+
+.gr-sm1 .col { width: 100% }
+.gr-sm2 .col { width: 50% }
+
+}

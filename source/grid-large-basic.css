@@ -1,0 +1,108 @@
+/*
+ * Grid v2.1.x - ./source/grid-large-basic.css
+ * 
+ * Copyright (C) 2016 Guilherme de Andrade Arantes.
+ *
+ * This work is licensed under the Creative Commons BY SA 4.0 License
+ * 
+ * Visit [license](http://creativecommons.org/licenses/by-sa/4.0/) or send a letter
+ * to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA to view
+ * a copy of this licence.
+ *
+ * Git-hub page: [git](https://github.com/guiideandrade/grid.git)
+ *
+ * See README.md and code-you-should-use.css for more details.
+ *
+ */
+
+/*
+ * Classes for large devices
+ * It was made for viewports equal or greater than 64rem
+ * We may say 64rem = 1024px [if 1rem = 16px]
+ *
+ */
+
+@media screen and (min-width: 64rem) {
+
+.lg1-1 { width: 100% }
+.lg1-2 { width: 50% }
+.lg2-2 { width: 100% }
+.lg1-3 { width: 33.333333% }
+.lg2-3 { width: 66.666667% }
+.lg3-3 { width: 100% }
+.lg1-4 { width: 25% }
+.lg2-4 { width: 50% }
+.lg3-4 { width: 75% }
+.lg4-4 { width: 100% }
+
+.lg1-5 { width: 20% }
+.lg2-5 { width: 40% }
+.lg3-5 { width: 60% }
+.lg4-5 { width: 80% }
+.lg5-5 { width: 100% }
+.lg1-6 { width: 16.666667% }
+.lg2-6 { width: 33.333333% }
+.lg3-6 { width: 50% }
+.lg4-6 { width: 66.666667% }
+.lg5-6 { width: 83.333333% }
+.lg6-6 { width: 100% }
+.lg1-7 { width: 14.285714% }
+.lg2-7 { width: 28.571429% }
+.lg3-7 { width: 42.857143% }
+.lg4-7 { width: 57.142857% }
+.lg5-7 { width: 71.428571% }
+.lg6-7 { width: 85.714286% }
+.lg7-7 { width: 100% }
+.lg1-8 { width: 12% }
+.lg2-8 { width: 25% }
+.lg3-8 { width: 37% }
+.lg4-8 { width: 50% }
+.lg5-8 { width: 62% }
+.lg6-8 { width: 75% }
+.lg7-8 { width: 87% }
+.lg8-8 { width: 100% }
+
+.lg1-9 { width: 11.111111% }
+.lg2-9 { width: 22.222222% }
+.lg3-9 { width: 33.333333% }
+.lg4-9 { width: 44.444444% }
+.lg5-9 { width: 55.555556% }
+.lg6-9 { width: 66.666667% }
+.lg7-9 { width: 77.777778% }
+.lg8-9 { width: 88.888889% }
+.lg9-9 { width: 100% }
+.lg1-10 { width: 10% }
+.lg2-10 { width: 20% }
+.lg3-10 { width: 30% }
+.lg4-10 { width: 40% }
+.lg5-10 { width: 50% }
+.lg6-10 { width: 60% }
+.lg7-10 { width: 70% }
+.lg8-10 { width: 80% }
+.lg9-10 { width: 90% }
+.lg10-10 { width: 100% }
+.lg1-11 { width: 9.090909% }
+.lg2-11 { width: 18.181818% }
+.lg3-11 { width: 27.272727% }
+.lg4-11 { width: 36.363636% }
+.lg5-11 { width: 45.454545% }
+.lg6-11 { width: 54.545455% }
+.lg7-11 { width: 63.636364% }
+.lg8-11 { width: 72.727273% }
+.lg9-11 { width: 81.818182% }
+.lg10-11 { width: 90.909091% }
+.lg11-11 { width: 100% }
+.lg1-12 { width: 8.333333% }
+.lg2-12 { width: 16.666667% }
+.lg3-12 { width: 25% }
+.lg4-12 { width: 33.333333% }
+.lg5-12 { width: 41.666667% }
+.lg6-12 { width: 50% }
+.lg7-12 { width: 58.333333% }
+.lg8-12 { width: 66.666667% }
+.lg9-12 { width: 75% }
+.lg10-12 { width: 83.333333% }
+.lg11-12 { width: 91.666667% }
+.lg12-12 { width: 100% }
+
+}

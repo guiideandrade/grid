@@ -1,0 +1,65 @@
+/*
+ * Grid v2.1.x - ./recommended/grid-extralarge-basic.css
+ * 
+ * Copyright (C) 2016 Guilherme de Andrade Arantes.
+ *
+ * This work is licensed under the Creative Commons BY SA 4.0 License
+ * 
+ * Visit [license](http://creativecommons.org/licenses/by-sa/4.0/) or send a letter
+ * to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA to view
+ * a copy of this licence.
+ *
+ * Git-hub page: [git](https://github.com/guiideandrade/grid.git)
+ *
+ * See README.md and code-you-should-use.css for more details.
+ *
+ */
+
+/*
+ * Classes for extra large devices
+ * It was made for viewports equal or greater than 80rem
+ * We may say 80rem = 1280px [if 1rem = 16px]
+ *
+ */
+
+@media screen and (min-width: 80rem) {
+
+.xl1-1 { width: 100% }
+.xl1-2 { width: 50% }
+.xl2-2 { width: 100% }
+.xl1-3 { width: 33.333333% }
+.xl2-3 { width: 66.666667% }
+.xl3-3 { width: 100% }
+.xl1-4 { width: 25% }
+.xl2-4 { width: 50% }
+.xl3-4 { width: 75% }
+.xl4-4 { width: 100% }
+
+.xl1-5 { width: 20% }
+.xl2-5 { width: 40% }
+.xl3-5 { width: 60% }
+.xl4-5 { width: 80% }
+.xl5-5 { width: 100% }
+.xl1-6 { width: 16.666667% }
+.xl2-6 { width: 33.333333% }
+.xl3-6 { width: 50% }
+.xl4-6 { width: 66.666667% }
+.xl5-6 { width: 83.333333% }
+.xl6-6 { width: 100% }
+.xl1-7 { width: 14.285714% }
+.xl2-7 { width: 28.571429% }
+.xl3-7 { width: 42.857143% }
+.xl4-7 { width: 57.142857% }
+.xl5-7 { width: 71.428571% }
+.xl6-7 { width: 85.714286% }
+.xl7-7 { width: 100% }
+.xl1-8 { width: 12% }
+.xl2-8 { width: 25% }
+.xl3-8 { width: 37% }
+.xl4-8 { width: 50% }
+.xl5-8 { width: 62% }
+.xl6-8 { width: 75% }
+.xl7-8 { width: 87% }
+.xl8-8 { width: 100% }
+
+}

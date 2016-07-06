@@ -1,0 +1,95 @@
+/*
+ * Grid v2.1.x - ./source/grid-large-offset.css
+ * 
+ * Copyright (C) 2016 Guilherme de Andrade Arantes.
+ *
+ * This work is licensed under the Creative Commons BY SA 4.0 License
+ * 
+ * Visit [license](http://creativecommons.org/licenses/by-sa/4.0/) or send a letter
+ * to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA to view
+ * a copy of this licence.
+ *
+ * Git-hub page: [git](https://github.com/guiideandrade/grid.git)
+ *
+ * See README.md and code-you-should-use.css for more details.
+ *
+ */
+
+/*
+ * Offsets, or 'empty cols'
+ * You may edit it to be margin-right, if rtl is needed
+ *
+ */
+
+@media screen and (min-width: 64rem) {
+
+.off-lg1-2 { margin-left: 50% }
+.off-lg1-3 { margin-left: 33.333333% }
+.off-lg2-3 { margin-left: 66.666667% }
+.off-lg1-4 { margin-left: 25% }
+.off-lg2-4 { margin-left: 50% }
+.off-lg3-4 { margin-left: 75% }
+
+.off-lg1-5 { margin-left: 20% }
+.off-lg2-5 { margin-left: 40% }
+.off-lg3-5 { margin-left: 60% }
+.off-lg4-5 { margin-left: 80% }
+.off-lg1-6 { margin-left: 16.666667% }
+.off-lg2-6 { margin-left: 33.333333% }
+.off-lg3-6 { margin-left: 50% }
+.off-lg4-6 { margin-left: 66.666667% }
+.off-lg5-6 { margin-left: 83.333333% }
+.off-lg1-7 { margin-left: 14.285714% }
+.off-lg2-7 { margin-left: 28.571429% }
+.off-lg3-7 { margin-left: 42.857143% }
+.off-lg4-7 { margin-left: 57.142857% }
+.off-lg5-7 { margin-left: 71.428571% }
+.off-lg6-7 { margin-left: 85.714286% }
+.off-lg1-8 { margin-left: 12% }
+.off-lg2-8 { margin-left: 25% }
+.off-lg3-8 { margin-left: 37% }
+.off-lg4-8 { margin-left: 50% }
+.off-lg5-8 { margin-left: 62% }
+.off-lg6-8 { margin-left: 75% }
+.off-lg7-8 { margin-left: 87% }
+
+.off-lg1-9 { margin-left: 11.111111% }
+.off-lg2-9 { margin-left: 22.222222% }
+.off-lg3-9 { margin-left: 33.333333% }
+.off-lg4-9 { margin-left: 44.444444% }
+.off-lg5-9 { margin-left: 55.555556% }
+.off-lg6-9 { margin-left: 66.666667% }
+.off-lg7-9 { margin-left: 77.777778% }
+.off-lg8-9 { margin-left: 88.888889% }
+.off-lg1-10 { margin-left: 10% }
+.off-lg2-10 { margin-left: 20% }
+.off-lg3-10 { margin-left: 30% }
+.off-lg4-10 { margin-left: 40% }
+.off-lg5-10 { margin-left: 50% }
+.off-lg6-10 { margin-left: 60% }
+.off-lg7-10 { margin-left: 70% }
+.off-lg8-10 { margin-left: 80% }
+.off-lg9-10 { margin-left: 90% }
+.off-lg1-11 { margin-left: 9.090909% }
+.off-lg2-11 { margin-left: 18.181818% }
+.off-lg3-11 { margin-left: 27.272727% }
+.off-lg4-11 { margin-left: 36.363636% }
+.off-lg5-11 { margin-left: 45.454545% }
+.off-lg6-11 { margin-left: 54.545455% }
+.off-lg7-11 { margin-left: 63.636364% }
+.off-lg8-11 { margin-left: 72.727273% }
+.off-lg9-11 { margin-left: 81.818182% }
+.off-lg10-11 { margin-left: 90.909091% }
+.off-lg1-12 { margin-left: 8.333333% }
+.off-lg2-12 { margin-left: 16.666667% }
+.off-lg3-12 { margin-left: 25% }
+.off-lg4-12 { margin-left: 33.333333% }
+.off-lg5-12 { margin-left: 41.666667% }
+.off-lg6-12 { margin-left: 50% }
+.off-lg7-12 { margin-left: 58.333333% }
+.off-lg8-12 { margin-left: 66.666667% }
+.off-lg9-12 { margin-left: 75% }
+.off-lg10-12 { margin-left: 83.333333% }
+.off-lg11-12 { margin-left: 91.666667% }
+
+}
