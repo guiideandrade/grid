@@ -86,7 +86,7 @@ Minified version of grid.css (see 3.4).
 
 ## 3.9 - ./main.cpp
 
-I used this c++ file to create base css files. I choose to leave it in the project, because it may be useful for me and others.
+I used this c++ file to create some basic css files. I choose to out it in the project, because it may be useful for me and others.
 
 ## 3.10 - ./breakpoints folder
 
