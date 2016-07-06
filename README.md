@@ -2,7 +2,7 @@
 
 Home page: [guiideandrade/grid](http://guiideandrade.com/project/grid)
 
-See grid-devel.css and code-you-should-use.css for more specific codes.
+See section 3 and code-you-should-use.css for more specific codes.
 
 # 1 - License
 
