@@ -1,10 +1,10 @@
-# Grid v2.x.x
+# Grid v2.1.x
 
 Home page: [guiideandrade/grid](http://guiideandrade.com/project/grid)
 
 See grid-devel.css and code-you-should-use.css for more specific codes.
 
-# License
+# 1 - License
 
 Copyright (C) 2016 Guilherme de Andrade Arantes.
 
@@ -16,8 +16,31 @@ Visit [license](http://creativecommons.org/licenses/by-sa/4.0/) or send a letter
 
 This program is distributed in the hope that it will be useful, but *without any warranty*; without even the implied warranty of *merchantability or fitness for a particular purpose*.
 
-# Why "Grid v2"?
+# 2 - Why "Grid v2"?
 
-I am proud of Grid-v1's size: the `gr` flavor was just 1.630 B! Then, I don't want to mess with this and in order to add some features in the grid system, I created this new branch on git-hub.
+I am proud of Grid-v1's size: the `gr` flavor was just 1.630 B! Then, I don't want to mess with this and in order to add some features in the grid system, I created this new branch on git-hub. 
+
+In this release, there is not a default ready-to-use file, instead we have a few `grid` files. These files can be combined, to keep integration easier with other codes, but that is not necessary. In development, these files are kept separeted.
 
 **I love to write free software (it isn't a software, it's just a CSS file, anyways...), you should check out my git-hub page at [git-hub](http://github.com/guiideandrade) or contact me at my [page](http://guiideandrade.com)**
+
+# 3 - Files
+
+├── code-you-should-use.css
+├── gr.css
+├── grid-comp.min.css
+├── grid.css
+├── grid-devel.css
+├── grid.min.css
+├── gr.min.css
+└── README.md
+
+These files is not needed in prodution, but you should checkout at least *code-you-should-use.css* and this *README.md* file.
+
+## 3.1 - code-you-shoud-use.css
+
+This file includes some CSS properties. These codes are recommended, you should consider this lines (it's very small).
+
+## 3.2 - README.md
+
+This file. It's the best way I found to communicate about the project. It contains some directives, some links, etc.
