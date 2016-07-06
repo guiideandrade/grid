@@ -16,7 +16,7 @@ Visit [license](http://creativecommons.org/licenses/by-sa/4.0/) or send a letter
 
 This program is distributed in the hope that it will be useful, but *without any warranty*; without even the implied warranty of *merchantability or fitness for a particular purpose*.
 
-# 2 - Why "Grid v2"?
+# 2 - Why "Grid v2.x.x"?
 
 I am proud of Grid-v1's size: the `gr` flavor was just 1.630 B! Then, I don't want to mess with this and in order to add some features in the grid system, I created this new branch on git-hub. 
 
@@ -45,4 +45,4 @@ This file includes some CSS properties. These codes are recommended, you should 
 
 This file. It's the best way I found to communicate about the project. It contains some directives, some links, etc. If you are looking for explanations about the code, notice that I wrote some comments while writing the source-code.
 
-I tried to keep this file updated, but the comments in code are usually more accurate than README.md.
+I tried to keep this file updated, but the comments in code are usually more accurated than README.md.
