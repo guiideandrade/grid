@@ -43,4 +43,6 @@ This file includes some CSS properties. These codes are recommended, you should 
 
 ## 3.2 - README.md
 
-This file. It's the best way I found to communicate about the project. It contains some directives, some links, etc.
+This file. It's the best way I found to communicate about the project. It contains some directives, some links, etc. If you are looking for explanations about the code, notice that I wrote some comments while writing the source-code.
+
+I tried to keep this file updated, but the comments in code are usually more accurate than README.md.
