@@ -26,6 +26,7 @@ In this release, there is not a default ready-to-use file, instead we have a few
 
 # 3 - Files
 
+```
 ├── README.md
 ├── code-you-should-use.css
 ├── grid-basic.css
@@ -39,6 +40,7 @@ In this release, there is not a default ready-to-use file, instead we have a few
 │   └── *.css
 └── recommended
     └── *.css
+```
 
 Some of these files is not needed in prodution, but you should checkout at least *code-you-should-use.css* and this *README.md* file.
 
