@@ -1,0 +1,96 @@
+/*
+ * Grid v2.1.x - ./grid-small-basic.css
+ * 
+ * Copyright (C) 2016 Guilherme de Andrade Arantes.
+ *
+ * This work is licensed under the Creative Commons BY SA 4.0 License
+ * 
+ * Visit [license](http://creativecommons.org/licenses/by-sa/4.0/) or send a letter
+ * to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA to view
+ * a copy of this licence.
+ *
+ * Git-hub page: [git](https://github.com/guiideandrade/grid.git)
+ *
+ * See README.md and code-you-should-use.css for more details.
+ *
+ */
+
+/*
+ * Classes for small devices
+ * It was made for viewports equal or greater than 35.5rem
+ * We may say 35.5rem = 568px [if 1rem = 16px]
+ *
+ */
+
+@media screen and (min-width: 35.5rem) {
+
+.sm1-2 { width: 50% }
+.sm1-3 { width: 33.333333% }
+.sm2-3 { width: 66.666667% }
+.sm1-4 { width: 25% }
+.sm2-4 { width: 50% }
+.sm3-4 { width: 75% }
+
+.sm1-5 { width: 20% }
+.sm2-5 { width: 40% }
+.sm3-5 { width: 60% }
+.sm4-5 { width: 80% }
+.sm1-6 { width: 16.666667% }
+.sm2-6 { width: 33.333333% }
+.sm3-6 { width: 50% }
+.sm4-6 { width: 66.666667% }
+.sm5-6 { width: 83.333333% }
+.sm1-7 { width: 14.285714% }
+.sm2-7 { width: 28.571429% }
+.sm3-7 { width: 42.857143% }
+.sm4-7 { width: 57.142857% }
+.sm5-7 { width: 71.428571% }
+.sm6-7 { width: 85.714286% }
+.sm1-8 { width: 12% }
+.sm2-8 { width: 25% }
+.sm3-8 { width: 37% }
+.sm4-8 { width: 50% }
+.sm5-8 { width: 62% }
+.sm6-8 { width: 75% }
+.sm7-8 { width: 87% }
+
+.sm1-9 { width: 11.111111% }
+.sm2-9 { width: 22.222222% }
+.sm3-9 { width: 33.333333% }
+.sm4-9 { width: 44.444444% }
+.sm5-9 { width: 55.555556% }
+.sm6-9 { width: 66.666667% }
+.sm7-9 { width: 77.777778% }
+.sm8-9 { width: 88.888889% }
+.sm1-10 { width: 10% }
+.sm2-10 { width: 20% }
+.sm3-10 { width: 30% }
+.sm4-10 { width: 40% }
+.sm5-10 { width: 50% }
+.sm6-10 { width: 60% }
+.sm7-10 { width: 70% }
+.sm8-10 { width: 80% }
+.sm9-10 { width: 90% }
+.sm1-11 { width: 9.090909% }
+.sm2-11 { width: 18.181818% }
+.sm3-11 { width: 27.272727% }
+.sm4-11 { width: 36.363636% }
+.sm5-11 { width: 45.454545% }
+.sm6-11 { width: 54.545455% }
+.sm7-11 { width: 63.636364% }
+.sm8-11 { width: 72.727273% }
+.sm9-11 { width: 81.818182% }
+.sm10-11 { width: 90.909091% }
+.sm1-12 { width: 8.333333% }
+.sm2-12 { width: 16.666667% }
+.sm3-12 { width: 25% }
+.sm4-12 { width: 33.333333% }
+.sm5-12 { width: 41.666667% }
+.sm6-12 { width: 50% }
+.sm7-12 { width: 58.333333% }
+.sm8-12 { width: 66.666667% }
+.sm9-12 { width: 75% }
+.sm10-12 { width: 83.333333% }
+.sm11-12 { width: 91.666667% }
+
+}

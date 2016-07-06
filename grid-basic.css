@@ -1,0 +1,72 @@
+/*
+ * Grid v2.1.x - ./grid-basic.css
+ * 
+ * Copyright (C) 2016 Guilherme de Andrade Arantes.
+ *
+ * This work is licensed under the Creative Commons BY SA 4.0 License
+ * 
+ * Visit [license](http://creativecommons.org/licenses/by-sa/4.0/) or send a letter
+ * to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA to view
+ * a copy of this licence.
+ *
+ * Git-hub page: [git](https://github.com/guiideandrade/grid.git)
+ *
+ * See README.md and code-you-should-use.css for more details.
+ *
+ */
+
+/*
+ * (1) `.row` class should be used, in order to float all cols
+ *
+ * (2) The goal here is to make all cols 100% in small devices
+ *     (2.1) :before and :after pseudo-classes are used here
+ *           to reset some code and avoid compatibility issues
+ *
+ */
+
+.row,             /* (1) */
+.col,             /* (2) */
+.row .col:before, /* (2.1) */
+.row .col:after {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  vertical-align: top;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+
+/*
+ * You may need to remove space between inline-block elements
+ *
+ */
+
+.row .col {
+  display: inline-block;
+}
+
+/*
+ * It's `.clearfix`
+ * See: [this](http://cssmojo.com/the-very-latest-clearfix-reloaded/)
+ *
+ */
+
+.row.float:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/*
+ * Default is left, but you can use `.float.right`
+ *
+ */
+
+.row.float .col,
+.row.float.left .col {
+  float: left;
+}
+.row.float.right .col {
+  float: right;
+}

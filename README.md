@@ -27,12 +27,23 @@ In this release, there is not a default ready-to-use file, instead we have a few
 # 3 - Files
 
 ├── code-you-should-use.css
-├── gr.css
-├── grid-comp.min.css
-├── grid.css
-├── grid-devel.css
-├── grid.min.css
-├── gr.min.css
+├── grid-basic.css
+├── grid-default-basic.css
+├── grid-default-initial.css
+├── grid-default-offset.css
+├── grid-extralarge-basic.css
+├── grid-extralarge-initial.css
+├── grid-extralarge-offset.css
+├── grid-large-basic.css
+├── grid-large-initial.css
+├── grid-large-offset.css
+├── grid-medium-basic.css
+├── grid-medium-initial.css
+├── grid-medium-offset.css
+├── grid-small-basic.css
+├── grid-small-initial.css
+├── grid-small-offset.css
+├── main.cpp
 └── README.md
 
 These files is not needed in prodution, but you should checkout at least *code-you-should-use.css* and this *README.md* file.
