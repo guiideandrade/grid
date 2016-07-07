@@ -74,6 +74,37 @@ public:
                                     // L = don't print last property
 };
 
+
+struct breakpoint { double minWidth, maxWidth; }
+struct grid { int minCols, maxCols; }
+
+class viewport {
+public:
+  viewport(const string&);
+  void setBreakpoint(const double& min = 0; const double& max = 0);
+  void setGrid(const int& min = 1, const int&);
+  void render(const char& mode='a');  // char = meaning (for each grid)
+                                      // a = print all properties,
+                                      // 1 = just print one property
+                                      // L = don't print last property
+private:
+  string shortName;
+  breakpoint viewport;
+  grid layout;
+};
+
+viewport::viewport(const string& name) { shortName = name; }
+void viewport::setBreakpoint(const double& min = 0; const double& max = 0) {
+  viewport.minWidth = min;
+  viewport.maxWidth = max;
+}
+void viewport::setGrid(const int& min = 1, const int&) {
+  layout.minCols = min;
+  layout.maxCols = max;
+}
+void viewport::render(const char& mode='a') {}
+
+
 /*
  * Function for calculation
  *
@@ -87,6 +118,14 @@ double perc(const int&, const int&);
  */
 
 int main(){
+
+  /*
+
+  grid newgr(1,2);
+  newgr.setMaxWidth(35.5);
+  newgr.getOutput():
+
+  */
   viewport initial(1, 12, 0, 0);
   initial.print();
   cout << endl;
