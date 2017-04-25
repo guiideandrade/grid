@@ -27,15 +27,32 @@
 
 using namespace std;
 
-int main(){
+int main(int argc, char** argv) {
 
   int grid, cols;
 
-  for (grid = MIN; grid <= MAX; ++grid) {
+  int min    = MIN;
+  int max    = MAX;
+  string cla = CLA;
+  string cha = CHA;
+  string css = CSS;
+
+  if (argc>=2)
+    css = argv[1];
+  if (argc>=3)
+    min = stoi(argv[2]);
+  if (argc>=4)
+    max = stoi(argv[3]);
+  if (argc>=5)
+    cla = argv[4];
+  if (argc>=6)
+    cha = argv[5];
+
+  for (grid = min; grid <= max; ++grid) {
     for (cols = 1; cols <= grid; ++cols) {
 
-      cout << CLA << cols << CHA << grid;
-      cout << " { " << CSS;
+      cout << cla << cols << cha << grid;
+      cout << " { " << css;
       cout << fixed << 100.0 / grid * cols;
       cout << "% }";
 
